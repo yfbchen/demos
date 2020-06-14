@@ -1,1 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Helvetica Neue';
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
