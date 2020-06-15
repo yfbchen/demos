@@ -25,4 +25,5 @@ export const StyledMenuContainer = styled('div')`
 export const StyledMenuLink = styled(Link)`
   padding: 10px 40px;
   cursor: pointer;
+  font-weight: 500;
 `;

@@ -1,7 +1,16 @@
 import React from 'react';
 
-import './styles';
+import DemoDirectory from '../../components/DemoDirectory';
 
-const DemoPage = () => <div />;
+import { StyledDemoPageContainer, StyledDescriptonContainer } from './styles';
+
+const DemoPage = () => (
+  <StyledDemoPageContainer>
+    <StyledDescriptonContainer>
+      Check out my recent projects:
+    </StyledDescriptonContainer>
+    <DemoDirectory />
+  </StyledDemoPageContainer>
+);
 
 export default DemoPage;
