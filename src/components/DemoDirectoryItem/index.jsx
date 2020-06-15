@@ -1,7 +1,9 @@
 import React from 'react';
 
-import './styles';
+import { StyledDirectoryItem } from './styles';
 
-const DemoDirectoryItem = () => <div className="demo-item">Calculator</div>;
+const DemoDirectoryItem = () => (
+  <StyledDirectoryItem to="/">Calculator</StyledDirectoryItem>
+);
 
 export default DemoDirectoryItem;

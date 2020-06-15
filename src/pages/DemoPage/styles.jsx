@@ -8,6 +8,7 @@ export const StyledDemoPageContainer = styled('div')`
 `;
 
 export const StyledDescriptonContainer = styled('div')`
+  width: 100%;
   text-align: center;
   font-weight: 400;
   font-size: 30px;
