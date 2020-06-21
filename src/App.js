@@ -5,14 +5,16 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import DemoPage from './pages/DemoPage';
 import Header from './components/Header';
+import Calculator from './components/Calculator';
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/demos" component={DemoPage} />
+        <Route exact path="/demos" component={DemoPage} />
+        <Route path="/demos/calculator" component={Calculator} />
       </Switch>
     </div>
   );
