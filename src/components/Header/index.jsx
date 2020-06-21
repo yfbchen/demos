@@ -11,7 +11,7 @@ import {
 
 const Header = () => (
   <StyledHeaderContainer>
-    <StyledLogoContainer>
+    <StyledLogoContainer to="/">
       <Logo />
     </StyledLogoContainer>
     <StyledMenuContainer>
